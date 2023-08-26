@@ -31,10 +31,11 @@ Node * createNode(void * data) {
 List * createList() 
 {
     List* newList = (List*)malloc(sizeof(List));
-    if (newList != NULL) {
-        newList->head = NULL; NULL
+    if (newList != NULL) 
+    {
+        newList->head = NULL;
         newList->tail = NULL;
-        newList->current = NULL; NULL
+        newList->current = NULL;
     }
 
     return newList;
